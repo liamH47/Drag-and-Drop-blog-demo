@@ -6,7 +6,7 @@ import PokeTile from './PokeTile'
 const PokeList = SortableContainer(({ pokemon }) => {
     return (
         <div className='poke-area'>
-            {pokemon.map((singlePoke, i) => 
+            {pokemon.map((singlePoke, i) => (
               <PokeTile
                 index={i} 
                 key={singlePoke.id} 
@@ -14,7 +14,7 @@ const PokeList = SortableContainer(({ pokemon }) => {
                 image={singlePoke.imageUrl} 
                 name={singlePoke.name} 
               />
-            )}
+            ))}
         </div>
     );
 });

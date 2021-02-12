@@ -30,7 +30,7 @@ class App extends Component {
         <div className='wrapper'>
           <h1> Drag and Drop Pokemon!</h1>
           <div >
-            <PokeList onSortEnd={this.onSortEnd} pokemon={pokeObj} axis='xy'/>
+            <PokeList onSortEnd={this.onSortEnd} pokemon={this.state.pokemon} axis='xy'/>
           </div>
         </div>
     );

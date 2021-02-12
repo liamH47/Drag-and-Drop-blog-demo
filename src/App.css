@@ -26,7 +26,8 @@ body {
   display: grid;
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 300px 300px 300px;
-
+  border: 1px solid black;
+ 
 }
 
 img {
@@ -38,14 +39,12 @@ img {
 .single-poke {
   /* padding: 0;
   margin: 0;
-  border: 1px solid black;
   height: 100%; */
-  background: #444;
-  border: 1px solid #555;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #AAA;
+
   
 } 
 img:hover{
