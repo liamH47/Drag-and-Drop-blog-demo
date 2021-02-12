@@ -1,10 +1,12 @@
 import React from 'react'
+import { SortableElement } from 'react-sortable-hoc'
 
-function PokeTile(props) {
+const PokeTile = SortableElement(props => {
+    const { image, name } = props
     return(
         <div className='single-poke'>
-            <img src={props.image} alt={props.name} />
+            <img src={image} alt={name} />
         </div>
     )
-}
+})
 export default PokeTile;
