@@ -4,19 +4,10 @@ import PokeList from './PokeList'
 import arrayMove from 'array-move'
 import pokeObj from './pokeObj'
 
-
-
-// const imgArray = [
-//   , , , , , , , , ]
-
 class App extends Component {
 
   state = {
     pokemon: pokeObj
-  }
-
-  componentDidMount() {
-    console.log(this.state)
   }
 
   onSortEnd = ({ oldIndex, newIndex }) => {
