@@ -1,50 +1,39 @@
-/* body {
-  text-align: center;
-  margin: 0;
-  background: #acf8b0e0;
-
-} */
 body {
   display: flex;
   justify-content: center;
-}
+  background-color: #57ff14;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffd50e'/%3E%3Cstop offset='1' stop-color='%23ffd50e' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2318ff97'/%3E%3Cstop offset='1' stop-color='%2318ff97' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ae12ff'/%3E%3Cstop offset='1' stop-color='%23ae12ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2357ff14'/%3E%3Cstop offset='1' stop-color='%2357ff14' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ff0818'/%3E%3Cstop offset='1' stop-color='%23ff0818' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231ca8ff'/%3E%3Cstop offset='1' stop-color='%231ca8ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 
-/* .wrapper{
-  height: 100vh;
-} */
- .wrapper h1{
+}
+.wrapper h1{
   text-align: center;  
   font-size: 30px; 
 } 
-
 .poke-area{
-  /* display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center; */
   display: grid;
   grid-template-rows: 300px 300px 300px;
   grid-template-columns: 300px 300px 300px;
-  border: 1px solid black;
- 
+  border: 1px solid black; 
+  background-color: #57ff14;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1200 800'%3E%3Cdefs%3E%3CradialGradient id='a' cx='0' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ffd50e'/%3E%3Cstop offset='1' stop-color='%23ffd50e' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='b' cx='1200' cy='800' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2318ff97'/%3E%3Cstop offset='1' stop-color='%2318ff97' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='c' cx='600' cy='0' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ae12ff'/%3E%3Cstop offset='1' stop-color='%23ae12ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='d' cx='600' cy='800' r='600' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%2357ff14'/%3E%3Cstop offset='1' stop-color='%2357ff14' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='e' cx='0' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%23ff0818'/%3E%3Cstop offset='1' stop-color='%23ff0818' stop-opacity='0'/%3E%3C/radialGradient%3E%3CradialGradient id='f' cx='1200' cy='0' r='800' gradientUnits='userSpaceOnUse'%3E%3Cstop offset='0' stop-color='%231ca8ff'/%3E%3Cstop offset='1' stop-color='%231ca8ff' stop-opacity='0'/%3E%3C/radialGradient%3E%3C/defs%3E%3Crect fill='url(%23a)' width='1200' height='800'/%3E%3Crect fill='url(%23b)' width='1200' height='800'/%3E%3Crect fill='url(%23c)' width='1200' height='800'/%3E%3Crect fill='url(%23d)' width='1200' height='800'/%3E%3Crect fill='url(%23e)' width='1200' height='800'/%3E%3Crect fill='url(%23f)' width='1200' height='800'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
 }
-
 img {
   height: 300px;
   width: 300px;
+  opacity: .8;
+  
 }
-
-
 .single-poke {
-  /* padding: 0;
-  margin: 0;
-  height: 100%; */
-
   display: flex;
   align-items: center;
   justify-content: center;
-
+  border: 1px solid black;
+  overflow: hidden;
+  
   
 } 
 img:hover{
